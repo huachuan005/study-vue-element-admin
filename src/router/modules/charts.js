@@ -22,7 +22,7 @@ const chartsRouter = {
       path: 'line',
       component: () => import('@/views/charts/line'),
       name: 'LineChart',
-      meta: { title: 'Line Chart', noCache: true }
+      meta: { title: '折线图', noCache: true }
     },
     {
       path: 'mix-chart',
