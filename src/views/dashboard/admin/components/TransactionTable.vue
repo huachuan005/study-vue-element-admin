@@ -61,7 +61,7 @@ export default {
         const listData = JSON.parse(JSON.stringify(response.data.items.slice(0, 8)))
         for (const item of listData) {
           if (item.status === 'success') {
-            item.statuss = '成功'
+            item.statuss = '完成'
           }
           if (item.status === 'pending') {
             item.statuss = '进行中'
