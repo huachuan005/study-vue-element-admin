@@ -36,7 +36,7 @@
 
     <div :key="'checkPermission'+key" style="margin-top:60px;">
       <aside>
-        In some cases, using v-permission will have no effect. For example: Element-UI's Tab component or el-table-column and other scenes that dynamically render dom. You can only do this with v-if.
+        在某些情况下，使用v-permission不会有任何效果。例如:Element-UI的选项卡组件或el-table-column和其他动态呈现dom的场景。你只能用v-if来做。
         <br> e.g.
       </aside>
 
